@@ -25,7 +25,7 @@
       <!-- When a link in the menu is clicked, we set the active variable -->
 
       <a href="#" class="home" ng-click="active='home'">Home</a>
-      <a href="#about" class="about" ng-click="active='about'">About</a>
+      <a href="#/pages/about.html" class="about" ng-click="active='about'">About</a>
       <a href="#reels" class="reels" ng-click="active='reels'">Reels</a>
       <a href="#contact" class="contact" ng-click="active='contact'">Contact</a>
     </nav>
@@ -37,9 +37,16 @@
     <p ng-hide="active">Please click a menu item</p>
     <p ng-show="active">You chose <b>{{active}}</b></p>
 
+
     <!-- angular templating -->
     <!-- this is where content will be injected -->
     <div ng-view></div>
+    <div ng-switch on=active>
+      <div ng-switch-when="about"><h2>{{active}} stuff</h2></div>
+      <div ng-switch-when="reels"><h2>{{active}} stuff</h2></div>
+      <div ng-switch-when="contact"><h2>{{active}} stuff</h2></div>
+      <div ng-switch-default><h2>{{active}} stuff</h2></div>
+    </div>
   </div>
 
 
