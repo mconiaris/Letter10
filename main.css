@@ -24,17 +24,18 @@ section, footer, header, aside, nav{
 
 body header {
   background-color: black;
+  color: #BDBDBD;
 }
 
 body header h1 {
   font-variant: small-caps;
   font-size: 4em;
-  color: #3399FF;
+  color: #537CCF;
   margin: 0;
 }
 
 body header h2 {
-  color: #D1D1FF;
+  color: #BDBDBD;
 }
 
 
