@@ -104,3 +104,7 @@ div.contact {
   text-align: center;
   font-size: 1em;
 }
+
+div.contact.ng-scope p a {
+  color: black;
+}
