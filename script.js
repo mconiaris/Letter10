@@ -27,23 +27,31 @@
       .when('/contact', {
         templateUrl : 'pages/contact.html',
         controller  : 'contactController'
+      })
+
+      .otherwise({
+        redirectTo: '/'
       });
   });
 
   // create the controller and inject Angular's $scope
   letterTen.controller('mainController', function($scope) {
     // create a message to display in our view
-    $scope.message = 'Everyone come and see how good I look!';
+    $scope.message = 'Dynamic Text for Homepage';
+    console.log("Launched home page.")
   });
 
   letterTen.controller('aboutController', function($scope) {
-    $scope.message = 'Look! I am an about page.';
+    $scope.message = 'Dyanmic Text for About Page.';
+    console.log("Launched About page");
   });
 
   letterTen.controller('reelsController', function($scope) {
-    $scope.message = 'Look! I am the reels controller.';
+    $scope.message = 'Dynamic Text for Reels Page.';
+    console.log("Launched Reels page");
   });
 
   letterTen.controller('contactController', function($scope) {
-    $scope.message = 'Contact us! JK. This is just a demo.';
+    $scope.message = 'Contact Page.';
+    console.log("Launched Contact page.")
   });

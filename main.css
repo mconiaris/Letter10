@@ -80,3 +80,9 @@ p b{
   text-transform:uppercase;
   font-size:18px;
 }
+
+ul
+{
+  display:inline-block;
+  list-style-type: none;
+}
