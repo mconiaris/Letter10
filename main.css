@@ -5,15 +5,13 @@
 body{
   font-family: 'Nova Square', 'Orbitron', 'Open Sans', sans-serif;
   font-size: .5em;
-  color: #5e5b64;
   text-align:center;
   background-color: #BABABA;
 }
 
 a, a:visited {
   outline:none;
-  color:#389dc1;
-    text-decoration:none;
+  text-decoration:none;
 
 }
 
@@ -24,6 +22,10 @@ a:hover{
 section, footer, header, aside, nav{
   display: block;
 }
+
+/*-------------------------
+  The Header
+--------------------------*/
 
 header {
   background-color: black;
@@ -40,34 +42,28 @@ header a h1 {
 header a h2 {
   color: #166F84;
   font-size: 3em;
+  -webkit-margin-before: 0.3em;
+  -webkit-margin-after: 0.3em;
 }
 
-
-
-/*-------------------------
-  The menu
---------------------------*/
-
-nav{
-  display:inline-block;
+header nav{
+  display: inline-block;
   margin: 0px auto;
-  border-radius:2px;
+  border-radius: 2px;
 }
 
-nav a{
-  display:inline-block;
-  padding: 18px 30px;
-  color:#fff !important;
-  font-weight:bold;
-  font-size:16px;
-  text-decoration:none !important;
+header nav a{
+  display: inline-block;
+  padding: 10px 30px;
+  color: #F0F0F0;
+  font-size: 2.5em;
   line-height:1;
   text-transform: uppercase;
-  background-color:transparent;
+}
 
-  -webkit-transition:background-color 0.25s;
-  -moz-transition:background-color 0.25s;
-  transition:background-color 0.25s;
+header nav ul {
+  display:inline-block;
+  list-style-type: none;
 }
 
 nav a:first-child{
@@ -78,7 +74,18 @@ nav a:last-child{
   border-radius:0 2px 2px 0;
 }
 
-p{
+
+/*-------------------------
+  Pages
+--------------------------*/
+
+div.ng-scope {
+  font-size: 2em;
+  margin: 0 4em 0 4em;
+}
+
+
+/*p{
   font-size:22px;
   font-weight:bold;
   color:#7d9098;
@@ -92,10 +99,6 @@ p b{
   border-radius:2px;
   text-transform:uppercase;
   font-size:18px;
-}
+}*/
 
-ul
-{
-  display:inline-block;
-  list-style-type: none;
-}
+
