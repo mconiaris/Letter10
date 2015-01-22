@@ -12,10 +12,11 @@ body{
 a, a:visited {
   outline:none;
   color:#389dc1;
+    text-decoration:none;
+
 }
 
 a:hover{
-  text-decoration:none;
   background-color: #707070;
 }
 
