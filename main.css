@@ -1,10 +1,10 @@
 *{
-  margin:0;
   padding:0;
 }
 
 body{
-  font: 1em 'Nova Square', 'Orbitron', 'Open Sans', sans-serif;
+  font-family: 'Nova Square', 'Orbitron', 'Open Sans', sans-serif;
+  font-size: .5em;
   color: #5e5b64;
   text-align:center;
   background-color: #BABABA;
@@ -25,20 +25,21 @@ section, footer, header, aside, nav{
   display: block;
 }
 
-body header {
+header {
   background-color: black;
   color: #BDBDBD;
 }
 
-body header h1 {
+header a h1 {
   font-variant: small-caps;
-  font-size: 4em;
+  font-size: 8em;
   color: #537CCF;
   margin: 0;
 }
 
-body header h2 {
+header a h2 {
   color: #166F84;
+  font-size: 3em;
 }
 
 
