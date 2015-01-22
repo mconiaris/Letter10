@@ -37,21 +37,20 @@
   // create the controller and inject Angular's $scope
   letterTen.controller('mainController', function($scope) {
     // create a message to display in our view
-    $scope.message = 'Dynamic Text for Homepage';
     console.log("Launched home page.")
   });
 
   letterTen.controller('aboutController', function($scope) {
-    $scope.message = 'Dyanmic Text for About Page.';
+    $scope.message = 'About Us.';
     console.log("Launched About page");
   });
 
   letterTen.controller('reelsController', function($scope) {
-    $scope.message = 'Dynamic Text for Reels Page.';
+    $scope.message = 'Our Reels.';
     console.log("Launched Reels page");
   });
 
   letterTen.controller('contactController', function($scope) {
-    $scope.message = 'Contact Page.';
+    $scope.message = 'Contact Us.';
     console.log("Launched Contact page.")
   });
