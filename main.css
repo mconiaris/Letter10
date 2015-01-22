@@ -29,8 +29,12 @@ body header {
 body header h1 {
   font-variant: small-caps;
   font-size: 4em;
+  color: #3399FF;
   margin: 0;
-  color: blue;
+}
+
+body header h2 {
+  color: #D1D1FF;
 }
 
 
@@ -42,8 +46,6 @@ body header h1 {
 nav{
   display:inline-block;
   margin: 0px auto;
-  background-color:#5597b4;
-  box-shadow:0 1px 1px #ccc;
   border-radius:2px;
 }
 
