@@ -90,23 +90,12 @@ div.ng-scope {
 div.pageTitle {
   text-align: center;
   padding: .5em;
+  padding-bottom: 0em;
 }
 
-
-/*p{
-  font-size:22px;
-  font-weight:bold;
-  color:#7d9098;
+div.image {
+  float: left;
+  padding: 0em;
+  padding-right: 0.2em;
 }
-
-p b{
-  color:#ffffff;
-  display:inline-block;
-  padding:5px 10px;
-  background-color:#c4d7e0;
-  border-radius:2px;
-  text-transform:uppercase;
-  font-size:18px;
-}*/
-
 
