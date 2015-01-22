@@ -87,6 +87,10 @@ div.ng-scope {
   padding: 2em;
 }
 
+div.pageTitle {
+  text-align: center;
+}
+
 
 /*p{
   font-size:22px;

@@ -41,16 +41,16 @@
   });
 
   letterTen.controller('aboutController', function($scope) {
-    $scope.message = 'About Us.';
+    $scope.message = 'About Us';
     console.log("Launched About page");
   });
 
   letterTen.controller('reelsController', function($scope) {
-    $scope.message = 'Our Reels.';
+    $scope.message = 'Our Reels';
     console.log("Launched Reels page");
   });
 
   letterTen.controller('contactController', function($scope) {
-    $scope.message = 'Contact Us.';
+    $scope.message = 'Contact Us';
     console.log("Launched Contact page.")
   });
