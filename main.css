@@ -23,11 +23,14 @@ section, footer, header, aside, nav{
 }
 
 body header {
-  background-color: aqua;
+  background-color: black;
 }
 
 body header h1 {
   font-variant: small-caps;
+  font-size: 4em;
+  margin: 0;
+  color: blue;
 }
 
 
@@ -38,7 +41,7 @@ body header h1 {
 
 nav{
   display:inline-block;
-  margin:60px auto 45px;
+  margin: 0px auto;
   background-color:#5597b4;
   box-shadow:0 1px 1px #ccc;
   border-radius:2px;
