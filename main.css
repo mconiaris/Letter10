@@ -4,9 +4,10 @@
 }
 
 body{
-  font:1em 'Nova Square', 'Orbitron', 'Open Sans', sans-serif;
+  font: 1em 'Nova Square', 'Orbitron', 'Open Sans', sans-serif;
   color: #5e5b64;
   text-align:center;
+  background-color: #BABABA;
 }
 
 a, a:visited {
@@ -74,13 +75,6 @@ nav a:first-child{
 
 nav a:last-child{
   border-radius:0 2px 2px 0;
-}
-
-nav.home .home,
-nav.projects .projects,
-nav.services .services,
-nav.contact .contact{
-  background-color:#e35885;
 }
 
 p{
