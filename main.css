@@ -100,3 +100,7 @@ div.image {
   padding-right: 0.2em;
 }
 
+div.contact {
+  text-align: center;
+  font-size: 1em;
+}
