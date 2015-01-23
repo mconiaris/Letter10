@@ -42,13 +42,6 @@ header a h1 {
   margin: 0;
 }
 
-header a h2 {
-  color: #166F84;
-  font-size: 3em;
-  -webkit-margin-before: 0.3em;
-  -webkit-margin-after: 0.3em;
-}
-
 header nav{
   display: inline-block;
   margin: 0px auto;
