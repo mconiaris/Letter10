@@ -35,14 +35,19 @@ section, footer, header, aside, nav{
 header {
   background-color: black;
   color: #BDBDBD;
+  font-variant: small-caps;
 }
 
 header a h1 {
   font-family: 'Bank Gothic W01 Medium', 'Nova Square', sans-serif;
-  font-variant: small-caps;
   font-size: 7em;
   color: #537CCF;
   margin: 0;
+}
+
+header a div.titleArea h2 {
+  font-size: 3em;
+  color: #FFF;
 }
 
 header nav{
