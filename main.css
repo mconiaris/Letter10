@@ -108,3 +108,8 @@ div.contact {
 div.contact.ng-scope p a {
   color: #E6E6E6;
 }
+
+div.ng-scope h2.ng-scope {
+  text-decoration: underline;
+  color: #537CCF;
+}
