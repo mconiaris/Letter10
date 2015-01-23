@@ -97,8 +97,8 @@ div.ng-scope {
 
 div.pageTitle {
   text-align: center;
-  padding: .5em;
-  padding-bottom: 0em;
+  padding: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 div.image {
@@ -120,5 +120,4 @@ div.ng-scope h2.ng-scope {
   text-decoration: underline;
   color: #537CCF;
 }
-
 
