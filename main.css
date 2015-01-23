@@ -7,6 +7,8 @@ body{
   font-size: .5em;
   text-align:center;
   background-color: #BABABA;
+  width: 100%;
+  height: 100%;
 }
 
 a, a:visited {
