@@ -17,10 +17,16 @@
         controller  : 'aboutController'
       })
 
-      // route for the about page
-      .when('/reels', {
-        templateUrl : 'pages/reels.html',
-        controller  : 'reelsController'
+      // route for the profiles page
+      .when('/profiles', {
+        templateUrl : 'pages/profiles.html',
+        controller  : 'profilesController'
+      })
+
+      // route for the originals page
+      .when('/originals', {
+        templateUrl : 'pages/originals.html',
+        controller  : 'originalsController'
       })
 
       // route for the contact page
@@ -45,9 +51,14 @@
     console.log("Launched About page");
   });
 
-  letterTen.controller('reelsController', function($scope) {
-    $scope.message = 'Our Reels';
-    console.log("Launched Reels page");
+  letterTen.controller('profilesController', function($scope) {
+    $scope.message = 'Profiles';
+    console.log("Launched Profiles page");
+  });
+
+  letterTen.controller('originalsController', function($scope) {
+    $scope.message = 'Originals';
+    console.log("Launched Originals page");
   });
 
   letterTen.controller('contactController', function($scope) {
