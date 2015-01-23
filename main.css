@@ -3,7 +3,7 @@
 }
 
 body{
-  font-family: 'Nova Square', 'Orbitron', 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: .5em;
   text-align:center;
   background-color: #BABABA;
@@ -35,6 +35,7 @@ header {
 }
 
 header a h1 {
+  font-family: 'Nova Square', sans-serif;
   font-variant: small-caps;
   font-size: 8em;
   color: #537CCF;
