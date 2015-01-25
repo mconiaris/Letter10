@@ -127,8 +127,8 @@ img.originalsImage {
 
 }
 
-div.aboutImage img {
-  width: 4.5em;
+img {
+  height: 9.5em;
 }
 
 div#reelsRequest {
