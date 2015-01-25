@@ -121,7 +121,10 @@ div.ng-scope h2.ng-scope {
   color: #537CCF;
 }
 
-img {
+img.originalsImage {
   width: 17em;
 }
 
+div.aboutImage img {
+  width: 4.5em;
+}
