@@ -148,4 +148,10 @@ div#reelsRequest {
 
 footer {
   color: white;
+
 }
+
+footer a {
+    list-style-type: none;
+    color: white;
+  }
