@@ -18,6 +18,19 @@ header nav ul a {
   font-size: 2.7em;
 }
 
+
+/*-------------------------
+  Pages
+--------------------------*/
+
+div.ng-scope {
+  max-width: 16em;
+}
+
+/*-------------------------
+  Footer
+--------------------------*/
+
 footer h6 {
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
