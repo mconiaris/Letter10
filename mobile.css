@@ -27,6 +27,10 @@ div.ng-scope {
   max-width: 16em;
 }
 
+img {
+  height: 4em;
+}
+
 
 /*-------------------------
   Main Page
