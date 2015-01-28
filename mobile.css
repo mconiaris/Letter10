@@ -18,8 +18,9 @@ header nav ul a {
   font-size: 2.7em;
 }
 
-footer {
-  background-color: white;
+footer h6 {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
 }
 
 /*
