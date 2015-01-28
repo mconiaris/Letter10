@@ -141,6 +141,15 @@ div#reelsRequest {
   font-size: 1.5em;
 }
 
+/*-------------------------
+  Main Page
+--------------------------*/
+
+  iframe {
+    width: 500px;
+    height: 281px;
+  }
+
 
 /*-------------------------
   Footer
