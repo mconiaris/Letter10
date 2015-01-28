@@ -1,1 +1,131 @@
-mobile.css
+/*-------------------------
+  The Header
+--------------------------*/
+header a h1 {
+  font-size: 5.5em;
+}
+
+header a div.titleArea h2 {
+  font-size: 2em;
+
+}
+
+header nav a {
+  padding: 5px 5px;
+}
+
+header nav ul a {
+  font-size: 2.7em;
+}
+
+footer {
+  background-color: white;
+}
+
+/*
+
+
+
+
+
+header nav{
+  display: inline-block;
+  margin: 0px auto;
+  border-radius: 2px;
+}
+
+header nav a{
+  display: inline-block;
+  padding: 10px 15px;
+  color: #F0F0F0;
+  font-size: 2em;
+  line-height:1;
+  text-transform: uppercase;
+}
+
+
+
+nav a:first-child{
+  border-radius:2px 0 0 2px;
+}
+
+nav a:last-child{
+  border-radius:0 2px 2px 0;
+}
+*/
+
+/*-------------------------
+  Pages
+--------------------------*/
+
+/*div.ng-scope {
+  font-size: 2em;
+  margin: 0 auto 0 auto;
+  max-width: 35em;
+  text-align: left;
+  padding: 2em;
+  padding-top: 0em;
+  color: #E6E6E6;
+}
+
+div.pageTitle {
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+div.image {
+  float: left;
+  padding: 0em;
+  padding-right: 0.2em;
+}
+
+div.contact {
+  text-align: center;
+  font-size: 1em;
+}
+
+div.contact.ng-scope p a {
+  color: #E6E6E6;
+}
+
+div.ng-scope h2.ng-scope {
+  text-decoration: underline;
+  color: #537CCF;
+}
+
+img.originalsImage {
+  width: 16em;
+  padding: 0.5em;
+
+}
+
+img {
+  height: 9.5em;
+}
+
+img.headshot {
+  float: left;
+  padding-right: 1em;
+}
+
+div#reelsRequest {
+  text-align: center;
+  font-size: 1.5em;
+}
+*/
+
+/*-------------------------
+  Footer
+--------------------------*/
+
+/*footer {
+  color: white;
+
+}
+
+footer a {
+    list-style-type: none;
+    color: white;
+  }
+*/
