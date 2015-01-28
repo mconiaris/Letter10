@@ -27,8 +27,20 @@ div.ng-scope {
   max-width: 16em;
 }
 
+div.contact {
+  font-size: .75em;
+}
+
+div#reelsRequest {
+  font-size: 0.8em;
+}
+
 img {
   height: 4em;
+}
+
+img.originalsImage {
+  width: 15em;
 }
 
 
