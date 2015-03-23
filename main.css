@@ -117,7 +117,6 @@ div.contact.ng-scope p a {
 }
 
 div.ng-scope h2.ng-scope {
-  text-decoration: underline;
   color: #537CCF;
 }
 
@@ -139,6 +138,14 @@ img.headshot {
 div#reelsRequest {
   text-align: center;
   font-size: 1.5em;
+}
+
+h2.profile {
+  margin-bottom: 1px;
+}
+
+p.profile {
+  margin-top: 1px;
 }
 
 /*-------------------------
