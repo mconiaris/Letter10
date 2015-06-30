@@ -17,11 +17,11 @@
         controller  : 'aboutController'
       })
 
-      // route for the profiles page
-      .when('/profiles', {
-        templateUrl : 'pages/profiles.html',
-        controller  : 'profilesController'
-      })
+      // // route for the profiles page
+      // .when('/profiles', {
+      //   templateUrl : 'pages/profiles.html',
+      //   controller  : 'profilesController'
+      // })
 
       // route for the originals page
       .when('/originals', {
